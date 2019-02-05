@@ -1,4 +1,4 @@
-Fizzbuzz is one of the most basic problems in the coding interview world. Try to write a small and elegant code for this problem. 
+/*Fizzbuzz is one of the most basic problems in the coding interview world. Try to write a small and elegant code for this problem. 
 Given a positive integer A, return an array of strings with all the integers from 1 to N. 
 But for multiples of 3 the array should have “Fizz” instead of the number. 
 For the multiples of 5, the array should have “Buzz” instead of the number. 
@@ -13,7 +13,7 @@ Return: [1 2 Fizz 4 Buzz]
 
 
 C++ code:
-
+*/
 vector<string> Solution::fizzBuzz(int A) {
     vector<string> v;
     for(int i=1;i<=A;i++)
