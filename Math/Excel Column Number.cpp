@@ -21,7 +21,7 @@ Example:
     long int x=0,n = st.size();
     x = st[n-1]-'A'+1;
     
-    for(int i=n-2;i>=0;i++){
+    for(int i=n-2;i>=0;i--){
         x += pow(26,n-i-1)*(st[i]-'A'+1);
     }
     
