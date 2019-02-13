@@ -31,5 +31,4 @@ ListNode* Solution::deleteDuplicates(ListNode* A) {
             move = move->next;
         }
     }
-    
 }
