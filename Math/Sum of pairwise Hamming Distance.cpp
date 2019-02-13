@@ -15,7 +15,7 @@ Let f(x, y) be the hamming distance defined above.
 A=[2, 4, 6]
 
 We return,
-f(2, 2) + f(2, 4) + f(2, 6) + 
+f(2, 2) + f(2, 4) + f(2, 6) +  
 f(4, 2) + f(4, 4) + f(4, 6) +
 f(6, 2) + f(6, 4) + f(6, 6) = 
 
