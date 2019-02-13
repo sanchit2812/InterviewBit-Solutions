@@ -34,3 +34,4 @@ int Solution::findRank(string A) {
     }
     return ans%1000003;
 }
+ 
