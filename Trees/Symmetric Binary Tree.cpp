@@ -37,4 +37,4 @@ int Solution::isSymmetric(TreeNode* A) {
     if(!A->left && !A->right) return 1;
     if(!A->left || !A->right) return 0;
     return check(A->left, A->right);
-}
+} 
