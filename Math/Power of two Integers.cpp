@@ -16,7 +16,7 @@ int Solution::isPower(int A) {
             x = x/i;
             if(x==1) return 1;
         }
-        if(x==0) return 1;
+        if(x==0) return 1; 
     }
     return 0;
 }
