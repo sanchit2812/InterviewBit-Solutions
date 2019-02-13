@@ -23,3 +23,4 @@ int Solution::gcd(int A, int B) {
     if(B>A) swap(A,B);
     return GCD(A,B);
 }
+ 
