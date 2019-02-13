@@ -36,7 +36,7 @@ int Solution::lPalin(ListNode* A) {
     ListNode* st = A;
     
     ListNode* curr = A, *prev =NULL, *nxt;
-    while(curr!=NULL){
+    while(curr!=NULL){ 
         nxt = curr->next;
         curr->next = prev;
         prev = curr;
