@@ -33,5 +33,5 @@ vector<int> Solution::primesum(int A) {
             v.push_back(A-i);
             return v;
         }
-    }
+    } 
 }
