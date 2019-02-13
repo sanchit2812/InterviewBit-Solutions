@@ -38,6 +38,6 @@ At day = 5, there are 2 guests in the hotel. But I have only one room.
         else cnt--;
         if(cnt> K ) return 0;
     }
-    return 1;
+    return 1; 
 }
 
