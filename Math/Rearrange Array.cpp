@@ -20,3 +20,4 @@ void Solution::arrange(vector<int> &A) {
     }
     for(int i=0;i<n;i++) A[i]/=n;
 }
+ 
