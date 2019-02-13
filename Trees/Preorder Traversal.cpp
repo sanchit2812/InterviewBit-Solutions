@@ -1,5 +1,5 @@
 /*
-Given a binary tree, return the preorder traversal of its nodes’ values.
+Given a binary tree, return the preorder traversal of its nodesâ€™ values.
 
 Example :
 Given binary tree
@@ -36,7 +36,7 @@ void PREORDER(TreeNode* root, vector<int>& v) {
         while(root){
             s.push(root);
             v.push_back(root->val);
-            root = root->left;
+            root = root->left; 
         }
         if(s.empty()) return ;
         root = s.top();
