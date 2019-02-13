@@ -24,6 +24,5 @@ Example:
     for(int i=n-2;i>=0;i--){
         x += pow(26,n-i-1)*(st[i]-'A'+1);
     }
-    
     return x;
 }
