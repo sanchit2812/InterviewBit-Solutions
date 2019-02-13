@@ -27,6 +27,6 @@ For example:
            A--;
        }
     }
-    reverse(s.begin(),s.end());
+    reverse(s.begin(),s.end()); 
     return s;
 }
