@@ -37,7 +37,7 @@ ListNode* Solution::removeNthFromEnd(ListNode* A, int B) {
     while(B--){
         head = head->next;
         A = A->next;
-    }
+    } 
     head->next = A->next->next;
     return ans;
 }
