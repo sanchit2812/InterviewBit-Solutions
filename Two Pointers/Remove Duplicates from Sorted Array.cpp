@@ -14,17 +14,21 @@ int Solution::removeDuplicates(vector<int> &A) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    
     int n = A.size(),i=0,j=0,k=0;
+    
     if(n==1) return 1;
+    
     while(i<n){
         j = i+1;
+        if(j==n){
+            A[k++]= A[i];
+            return k;
+        }
         while(j<n && A[j]==A[i]){
             j++;
         }
-        if(j==n-1){
+        if(j==n){
             A[k++] = A[i];
-            if(A[j]!=A[i]) A[k++] = A[j];
             return k;
         }
         else{
