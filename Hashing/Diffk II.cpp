@@ -24,3 +24,4 @@ int Solution::diffPossible(const vector<int> &A, int B) {
    // for(it=mp.begin();it!=mp.end();it++) cout<<it->first<<" "<<it->second<<endl;
     return 0;
 }
+ 
